@@ -1,0 +1,91 @@
+/* NAVBAR */
+.navbar-light {
+    background-color: #dc3545;
+}
+
+.navbar-brand {
+    font-family: segoe print;
+    font-weight: 600;
+    color: white !important;
+}
+
+.navbar-nav a {
+    color: white !important;
+    font-family: poppins;
+}
+
+.navbar-nav a:hover {
+    color: #ccc !important;
+    transition: .2s;
+}
+/* NAVBAR */
+
+/* BANNER */
+.banner {
+    height: 400px;
+    max-width: 1365px;
+    background-image: url(img/home/banner.png);
+    border-bottom: 2px solid #8e8e8e;
+}
+
+.card-banner {
+    font-family: poppins;
+    transform: translateY(130px);
+    color: #373737;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.card-banner .btn-danger {
+    color: white;
+    font-weight: 600;
+}
+
+.card-body h3 {
+    font-weight: 800;
+    border-bottom: 3px solid #373737;
+}
+
+.card-body p {
+    font-size: 18px;
+    font-weight: 500;
+}
+/* BANNER */
+
+/* NEW PRODUCT */
+.card-newproduct {
+    margin-top: 5px;
+    font-family: poppins;
+}
+
+.card-newproduct .card-header {
+    font-weight: 600;
+    font-size: 18px;
+    color: #dc3545;
+}
+
+.card-newproduct .card-img {
+    width: 150px;
+    height: 150px;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon {
+    padding: 10px;
+    background-color: #dc3545;
+}
+
+.card-newproduct .carousel-item .card-deck a {
+    text-decoration: none;
+    color: #373737;
+}
+
+.card-newproduct .carousel-item .card-deck a:hover {
+    transform: scale(.95);
+    transition: .2s;
+}
+
+.carousel-newproducts .carousel-item .card-deck .card-body small {
+    font-weight: 600;
+}
+/* NEW PRODUCT */
