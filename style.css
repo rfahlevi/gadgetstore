@@ -113,3 +113,43 @@
     transition: .2s;
 }
 /* BRANDS */
+
+/* BEST SELLER */
+.bestseller {
+    font-family: poppins;
+}
+
+.bestseller .card-box .card-deck a {
+    text-decoration: none;
+    color: #373737;
+}
+
+.bestseller .card-box .card-deck a:hover {
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
+}
+
+.bestseller .card-deck h5 {
+    font-weight: 600;
+}
+
+.bestseller .card-deck small {
+    font-weight: 600;
+}
+/* BEST SELLER */
+
+/* FOOTER */
+.page-footer {
+    background-color: #dc3545;
+    color: white;
+    font-family: poppins;
+}
+
+.page-footer .footer-projectuas p {
+    margin-bottom: 5px;
+}
+
+.footer-projectuas a {
+    text-decoration: none;
+}
+/* FOOTER */
