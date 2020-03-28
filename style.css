@@ -54,18 +54,18 @@
 /* BANNER */
 
 /* NEW PRODUCT */
-.card-newproduct {
+.card-box {
     margin-top: 5px;
     font-family: poppins;
 }
 
-.card-newproduct .card-header {
+.card-box .card-header {
     font-weight: 600;
     font-size: 18px;
     color: #dc3545;
 }
 
-.card-newproduct .card-img {
+.card-box .card-img {
     width: 150px;
     height: 150px;
 }
@@ -75,12 +75,12 @@
     background-color: #dc3545;
 }
 
-.card-newproduct .carousel-item .card-deck a {
+.card-box .carousel-item .card-deck a {
     text-decoration: none;
     color: #373737;
 }
 
-.card-newproduct .carousel-item .card-deck a:hover {
+.card-box .carousel-item .card-deck a:hover {
     transform: scale(.95);
     transition: .2s;
 }
@@ -89,3 +89,27 @@
     font-weight: 600;
 }
 /* NEW PRODUCT */
+
+/* BRANDS */
+.logo-brands {
+    align-self: center;
+}
+
+.logo-brands .margin {
+    margin-right: -50px;
+}
+
+.logo-brands a .col-centered {
+    margin-left: 30px;
+    padding: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.logo-brands a .col-centered:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(.95);
+    transition: .2s;
+}
+/* BRANDS */
