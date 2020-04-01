@@ -153,3 +153,32 @@
     text-decoration: none;
 }
 /* FOOTER */
+
+
+/* SINGLE PRODUCT */
+.box-singleproduct {
+    border: 1px solid #8e8e8e;
+    border-radius: 10px;
+    color: #373737;
+    font-family: poppins;
+}
+
+.box-singleproduct .plus-minus {
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.box-singleproduct input {
+    max-width: 40px;
+}
+
+.box-singleproduct .button {
+    display: inline;
+}
+
+.breadcrumb {
+    margin-top: 50px;
+    background-color: white;
+    font-family: poppins;
+}
+/* SINGLE PRODUCT */
