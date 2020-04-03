@@ -163,6 +163,10 @@
     font-family: poppins;
 }
 
+.box-singleproduct .col-xs-12 {
+    justify-content: center;
+}
+
 .box-singleproduct .plus-minus {
     margin-top: -20px;
     margin-bottom: 50px;
