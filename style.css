@@ -163,10 +163,6 @@
     font-family: poppins;
 }
 
-.box-singleproduct .col-xs-12 {
-    justify-content: center;
-}
-
 .box-singleproduct .plus-minus {
     margin-top: -20px;
     margin-bottom: 50px;
@@ -178,6 +174,12 @@
 
 .box-singleproduct .button {
     display: inline;
+}
+
+.box-singleproduct .btn-add {
+    width: 200px;
+    color: white;
+    font-weight: 500;
 }
 
 .breadcrumb {
