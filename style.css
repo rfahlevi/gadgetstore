@@ -161,6 +161,7 @@
     border-radius: 10px;
     color: #373737;
     font-family: poppins;
+    min-width: auto;
 }
 
 .box-singleproduct .plus-minus {
@@ -180,6 +181,10 @@
     width: 200px;
     color: white;
     font-weight: 500;
+}
+
+.box-singleproduct small {
+    margin-top: 100px !important;
 }
 
 .breadcrumb {
