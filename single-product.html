@@ -42,6 +42,7 @@
                 </ol>
               </nav>
             <!-- BREADCRUMB -->
+
             <div class="box-singleproduct">
               <div class="row justify-content-center">
                 <div class="col-md-3 col-xs-12">
@@ -52,12 +53,32 @@
                   <h4>Iphone XI Max Pro (256GB)</h4>
                   <p>IDR. 25.999.000</p>
 
-                  <button class="btn btn-secondary" id="minus"><i class="fas fa-minus-circle"></i></button>
-                  <input type="text" value="1" class="text-center" id="hasil">
-                  <button class="btn btn-success" id="plus"><i class="fas fa-plus-circle"></i></button>
+                  <div class="handle-counter" id="handleCounter">
+                    <button class="btn counter-minus btn-secondary"><i class="fas fa-minus-circle"></i></button>
+                    <input type="text" value="1" class="text-center">
+                    <button class="btn counter-plus btn-success" id="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
 
-                  <button class="btn btn-add btn-warning d-block mt-5 mx-auto">Add to Chart</button>
-                  <button class="btn btn-add btn-secondary d-block my-2 mx-auto">Add to Wishlist</button>
+                    <button class="btn btn-add btn-warning d-block mt-5 mx-auto">Add to Chart</button>
+                    <button class="btn btn-add btn-secondary d-block my-2 mx-auto">Add to Wishlist</button>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-7">
+                  <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a href="#nav-spec" class="nav-item nav-link active" id="nav-spec-tab" data-toggle="tab" role="tab" aria-controls="nav-spec" aria-selected="true">Specification</a>
+                      <a href="#nav-desc" class="nav-item nav-link" id="nav-desc-tab" data-toggle="tab" role="tab" aria-controls="nav-desc" aria-selected="false">Description</a>
+                    </div>
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-fane fade show active" id="nav-spec" role="tabpanel" aria-labelledby="nav-spec-tab">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid facere molestiae enim aperiam dolor vitae libero itaque iste quaerat, vel sed pariatur eum, quasi consequatur, qui optio soluta ea a.
+                      </div>
+                      <div class="tab-fane fade" id="nav-spec" role="tabpanel" aria-labelledby="nav-spec-tab">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid facere molestiae enim aperiam dolor vitae libero itaque iste quaerat, vel sed pariatur eum, quasi consequatur, qui optio soluta ea a.
+                      </div>
+                    </div>
+                  </nav>
                 </div>
               </div>
             </div>
@@ -89,7 +110,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
+    <script src="js/app/js/handleCounter.js"></script>
+    <script src="js/script.js"></script>
   
   </body>
 </html>
